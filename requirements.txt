@@ -1,5 +1,7 @@
 asgiref==3.7.2
+coverage==7.3.0
 Django==4.2.4
 django-bootstrap5==23.3
+model-bakery==1.15.0
 sqlparse==0.4.4
 typing_extensions==4.7.1

@@ -14,3 +14,8 @@ class PessoaForm(forms.ModelForm):
     class Meta:
         model = Pessoa
         fields = ['nome', 'cpf', 'data_nascimento', 'profissao']
+        error_messages = {
+            'profissao': {
+                'invalid_choice': 'erro',
+            },
+        }
