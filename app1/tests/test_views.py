@@ -8,9 +8,7 @@ class IndexViewTestCase(TestCase):
 
     def setUp(self):
         self.client = Client()
-        self.url = reverse('index')  # Replace 'index' with the name you've given this URL pattern in urls.py
-
-        # Create some test data
+        self.url = reverse('index')
         self.profissao1 = Profissao.objects.create(descricao='fisico nuclear')
         self.profissao2 = Profissao.objects.create(descricao='matemático')
 
